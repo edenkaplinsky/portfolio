@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Eden</title>
+    <title>Posts on Eden Kaplinsky</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Eden</description>
+    <description>Recent content in Posts on Eden Kaplinsky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
