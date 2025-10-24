@@ -1,0 +1,23 @@
+<div class="toggler-container">
+  <button class="toggler-button" onclick="this.nextElementSibling.classList.toggle('toggler-open');">
+    {{ .Get "title" | default "Click to toggle" }}
+  </button>
+  <div class="toggler-content" style="display: none; padding: 0.5rem 0;">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
+
+<style>
+.toggler-button {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.toggler-content.toggler-open {
+  display: block !important;
+}
+</style>
